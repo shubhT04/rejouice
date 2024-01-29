@@ -1,6 +1,6 @@
 function cursoreffect(){
     var page1Content = document.getElementById("page1-content");
-var cursor = document.getElementById("cursor");
+    var cursor = document.getElementById("cursor");
 
 page1Content.addEventListener("mousemove", function(dets){
     gsap.to(cursor,{
